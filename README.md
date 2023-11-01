@@ -3,18 +3,22 @@
 
 # Установка
 ## Linux
+```
 git clone https://github.com/sobakaruzhaya/trashAI/
 cd trashAI
 sudo apt-get install python3-venv
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
+```
 ## Windows
+```
 git clone https://github.com/sobakaruzhaya/trashAI/
 cd trashAI
 python -m venv env
 ./env/Scripts/Activate 
 pip install -r requirements.txt
+```
 
 # Как пользоваться
 1. Создайте каталог images и перенесите в него картики всех фреймов
